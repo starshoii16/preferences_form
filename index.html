@@ -10,6 +10,7 @@
     <script src="index.js"></script>
     <meta name="theme-color" content="#4285f4" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="radio_btn.css" />
   </head>
   <body>
     <div class="preferences">
@@ -200,27 +201,34 @@
               Theme
             </label>
             <div class="custom-input__radio-btn">
-              <label class="cutom-input__label"
-                ><input
-                  name="origin"
-                  type="radio"
-                  value="google"
-                  id="ligthTheme"
-                  checked
-                />
-                Light</label
-              >
-              <label class="cutom-input__label"
-                ><input
-                  name="origin"
-                  type="radio"
-                  value="google"
-                  id="darkTheme"
-                />
-                Dark</label
-              >
+              <!-- <label class="cutom-input__label"> -->
+              <ul>
+                <li>
+                  <input
+                    type="radio"
+                    class="input-castom__btn"
+                    name="selector"
+                    id="ligthTheme"
+                  />
+                  <label for="ligthTheme">Light</label>
+                  <div class="check"></div>
+                </li>
+                <li>
+                  <input
+                    class="input-castom__btn"
+                    type="radio"
+                    name="selector"
+                    id="darkTheme"
+                    checked
+                  />
+                  <label for="darkTheme">Dark</label>
+                  <div class="check"></div>
+                </li>
+              </ul>
+              <!-- </label> -->
             </div>
           </div>
+
           <div class="form__custom-input custom-input">
             <button class="custom-btn__save" id="btnSave">
               Apply and Save
@@ -229,7 +237,7 @@
           </div>
         </div>
         <div>
-          <img class="footerImg" src="/bg-img.png" alt="" />
+          <img class="footerImg" src="bg-img.png" alt="" />
         </div>
       </div>
     </div>

@@ -17,6 +17,8 @@
   --btn-save: #2a75db;
   --btn-save-color: #f8f8f8;
   --btn-save-hover: #f0f6ff;
+  --btn-radiobtn-color: #2a75db;
+  --input-color-hover: rgba(0, 0, 0, 0.2);
 }
 
 html[data-theme="dark"] {
@@ -39,6 +41,8 @@ html[data-theme="dark"] {
   --btn-save: #b9d5fc;
   --btn-save-color: #3a3939;
   --btn-hover-blue: #d4e4fa;
+  --btn-radiobtn-color: #b9d5fc;
+  --input-color-hover: rgba(255, 255, 255, 0.269);
 }
 body {
   font-family: "Ubuntu";
@@ -125,7 +129,7 @@ body {
   border: 1px solid var(--btn);
 }
 .custom-input__text-field:hover {
-  border: 1px solid var(--btn);
+  background-color: var(--input-color-hover);
 }
 .preferences__form-code {
   font-family: "Ubuntu";
@@ -150,7 +154,8 @@ body {
   outline: none;
 }
 .preferences__form-code:hover {
-  border: 1px solid var(--btn);
+  /* border: 1px solid var(--input-hover-two); */
+  background-color: var(--input-color-hover);
 }
 .preferences__form-code:focus {
   border: 1px solid var(--btn);

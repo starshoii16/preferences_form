@@ -23,7 +23,7 @@
   width: 196px;
   height: 32px;
   background: var(--input-title);
-  border: 1px solid var(--input-hover-two);
+  border: 1px solid var(--input-focus);
   border-radius: 6px;
   flex: none;
   order: 0;
@@ -32,6 +32,9 @@
 }
 .itc-select__toggle:focus {
   border: 1px solid var(--btn);
+}
+.itc-select__toggle:hover {
+  background-color: var(--input-color-hover);
 }
 
 .itc-select__toggle::after {
@@ -66,6 +69,11 @@
   border-radius: 10px;
   width: 100%;
   box-shadow: 1px 5px 4px rgb(0 0 0 / 25%);
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
 }
 .itc-select_show .itc-select__dropdown {
   display: block;
@@ -92,15 +100,22 @@
   order: 0;
   flex-grow: 1;
   color: var(--color-text);
+  left: 0px;
+  top: 0;
 }
 
 .itc-select__option_selected {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  left: 0;
+  top: 0;
 }
 .itc-select__option:hover {
   background-color: var(--input-hover-two);
   cursor: pointer;
   transition: 0.2s background-color ease-in-out;
+}
+.input-castom__btn {
+  top: 30px;
 }
