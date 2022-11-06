@@ -64,10 +64,6 @@ ul li label {
   -webkit-transition: all 0.25s linear;
 }
 
-ul li:hover label {
-  color: #ffffff;
-}
-
 ul li .check {
   display: block;
   position: absolute;
