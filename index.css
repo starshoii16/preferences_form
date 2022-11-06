@@ -12,7 +12,7 @@
   --span-color: #0b0a0a;
   --select-input-color: #f8f8f8;
   --input-focus: #887c7c;
-  --url-vector: url("/Vector-blue.png");
+  --url-vector: url("Vector-blue.png");
   --btn-cancel: #f8f8f8;
   --btn-save: #2a75db;
   --btn-save-color: #f8f8f8;
@@ -34,7 +34,7 @@ html[data-theme="dark"] {
   --span-color: white;
   --select-input-color: #424242;
   --input-focus: #887c7c;
-  --url-vector: url("/Vector-dark.png");
+  --url-vector: url("Vector-dark.png");
   --btn-cancel: #424242;
   --btn-save: #b9d5fc;
   --btn-save-color: #3a3939;

@@ -40,7 +40,7 @@
   width: 0.75rem;
   height: 0.75rem;
   margin-left: 1rem;
-  background-image: url("/Vector.png");
+  background-image: url("Vector.png");
   background-size: 12px 7px;
   background-repeat: no-repeat;
   content: "";
