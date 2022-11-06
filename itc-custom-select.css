@@ -1,6 +1,5 @@
 .itc-select {
   position: relative;
-  border: 1px solid var(--input-focus);
   border-radius: 7px;
   max-width: 100%;
 }
