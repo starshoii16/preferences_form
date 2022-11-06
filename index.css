@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
-
 :root {
   --bg-color: #f8f8f8;
   --color-text: #0b0a0a;
@@ -45,8 +43,7 @@ html[data-theme="dark"] {
   --input-color-hover: rgba(255, 255, 255, 0.269);
 }
 body {
-  font-family: "Ubuntu";
-  font-style: normal;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   margin: 0;
 }
